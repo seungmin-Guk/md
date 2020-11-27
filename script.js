@@ -52,8 +52,8 @@ async function predict() {
     const probability = prediction[i].probability.toFixed(2) * 100;
 
     const data = {
-      delmonte: '주스',
-      white heim: '과자',
+      delmonte: 'delmonte',
+      white heim: 'white heim',
     };
 
     if (probability >= 75) {
